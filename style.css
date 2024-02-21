@@ -17,6 +17,13 @@ body {
    margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+ #countText {
+   padding: 0 1.2rem;
+   font-size: 3em;
+   }
+}
+
 
 #countLable {
    display: block;
@@ -24,6 +31,12 @@ body {
    font-size: 12em;
    font-family: Helvetica;
    color: #944E63;
+}
+
+@media (max-width: 600px) {
+#countLable {
+   font-size: 7em;
+   }
 }
 
 #heart{
